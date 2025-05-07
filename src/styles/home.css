@@ -1,13 +1,14 @@
 /* src/pages/home.css */
+
+
 .home-hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4rem 2rem;
-    margin-top: 80px;
+    padding: 1rem 2rem;
     max-width: 1200px;
     margin-inline: auto;
-  }
+    }
   
   .hero-left {
     flex: 1;
@@ -19,7 +20,7 @@
   }
   
   .hero-left p {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: 1.6;
     margin-bottom: 1.5rem;
   }

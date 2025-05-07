@@ -1,4 +1,8 @@
 /* src/styles/navbar.css */
+*{
+  margin: 0;
+}
+
 .navbar {
     position: fixed;
     top: 0;
@@ -10,7 +14,7 @@
   }
   
   .navbar-container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
@@ -23,9 +27,13 @@
     align-items: center;
     gap: 0.5rem;
   }
+
+  .logo-container .logo-image:hover{
+    cursor: pointer;
+  }
   
   .logo-image {
-    height: 20px;
+    height: 30px;
     width: auto;
   }
   
@@ -46,6 +54,9 @@
     color: #222;
     font-weight: normal;
     position: relative;
+    font-family: "Times New Roman", Times, serif;
+    padding : 0.5rem 0;
+    font-size: 17px;
   }
   
   .nav-link.active {

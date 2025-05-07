@@ -13,16 +13,28 @@
   .hero-left {
     flex: 1;
   }
-  
-  .hero-left h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+
+  .hero-left {
+    flex: 1;
+    margin-left: -1.5rem; 
   }
   
+  
+  .hero-left h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+    color:#333333
+
+  }
+
+  
   .hero-left p {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 1.6;
     margin-bottom: 1.5rem;
+    color:#333333
   }
   
   .cta-btn {
@@ -32,6 +44,7 @@
     border: none;
     border-radius: 6px;
     font-weight: 500;
+    font-size: 1.2rem;
     
   }
   
@@ -42,9 +55,10 @@
   }
   
   .hero-right img {
+    max-height: 28rem;
     width: 100%;
-    max-width: 500px;
+    max-width: 31.25rem; /* 500px */
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 0.75rem; /* 12px */
   }
   

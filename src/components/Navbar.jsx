@@ -5,7 +5,7 @@ import logo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <header className="navbar">
+    <header className="custom-navbar">
       <div className="navbar-container">
         <div className="logo-container">
           <img src={logo} alt="AL YAQOOT" className="logo-image" />

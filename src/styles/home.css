@@ -61,3 +61,43 @@
     border-radius: 0.75rem; /* 12px */
   }
   
+
+  /* Trusted by companies */
+
+  .trusted-by {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .trusted-by p {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .trusted-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .trusted-logos img {
+    /* max-height: 40px; */
+    max-width: 120px;
+    object-fit: contain;
+    flex: 1 1 120px;
+    filter: grayscale(100%);
+    /* transition: filter 0.3s ease; */
+    height: 30px;
+  }
+  
+  .trusted-logos img:hover {
+    filter: grayscale(0%);
+  }
+  
+  
